@@ -14,7 +14,7 @@ int main(void)
     _putchar(' ');
     _putchar(r + '0');
     _putchar('\n');
-    r = print_sign(0);
+    r = print_sign(00);
     _putchar(',');
     _putchar(' ');
     _putchar(r + '0');
