@@ -2,7 +2,7 @@
 
 /**
  * _atoi - Converts a strind to an integer
- * The pointer to  convert
+ * @s: The pointer to  convert
  * Return: A integer
  */
 
