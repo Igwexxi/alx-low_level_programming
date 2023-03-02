@@ -1,21 +1,22 @@
 #include "main.h"
+
 /**
- * string_toupper - change lowercase to uppercase
- * @n: pointer
+ * string_toupper - Changes all lower case letters
+ * of a string to upper case
+ * @str: The string to be changed
+ * Return: A pointer to the changed string
  *
- * Return: n
  */
-char *string_toupper(char *n)
+char *string_toupper(char *str)
 {
-	int i;
 
-	i = 0;
-	while (n[i] != '\0')
+	int index = 0;
+
+	while (str[index])
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
-			n[i] = n[i] - 32;
-		i++;
+	if (str[index] >= 'a' && str[index] <= 'z')
+	str[index] -= 32;
+	index++;
 	}
-
-	return (0);
+	return (str);
 }
