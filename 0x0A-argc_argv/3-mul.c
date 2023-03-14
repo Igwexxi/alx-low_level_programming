@@ -6,7 +6,8 @@
  * main - Prints the multiplication of two numbers
  * @argc: Count argument
  * @argv: Argument array
- * Return: Always 0
+ *
+ * Return: Always zero
  */
 int main(int argc, char *argv[])
 {
