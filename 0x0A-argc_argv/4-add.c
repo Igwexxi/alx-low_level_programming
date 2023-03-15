@@ -8,6 +8,7 @@
 *
 * Return: Always 0 (Success)
 */
+
 int check_num(char *str)
 {
 	/*Declaring variables*/
@@ -18,10 +19,10 @@ int check_num(char *str)
 
 
 	{
-		if (!isdigit(str[count])) /*check if str there are digit*/
-			{
-				return (0);
-			}
+	if (!isdigit(str[count])) /*check if str there are digit*/
+		{
+		return (0);
+		}
 		count++;
 	}
 		return (1);
